@@ -1,0 +1,66 @@
+#tracks-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.track-card {
+    font-family: "Oswald", sans-serif;
+    flex: 1 1 200px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fc685d;
+}
+
+h1, h3 {
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.spotify_button {
+    background-color: #1DB954;
+    font-family: "Oswald", sans-serif;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000;    
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#fetch_button_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#fetch_button {
+    border: none;
+    font-family: "Oswald", sans-serif;
+    border-radius: 3px;
+    background-color: #f95;
+    cursor: pointer;
+    padding: 4px 10px;
+}
+
+.fetch_input {
+    border: none;
+    font-family: "Oswald", sans-serif;
+    border-radius: 3px;
+    background-color: rgb(48, 76, 15);
+    margin-right: 7px;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+.error-message {
+    color: #ffb4b4;
+    background: #2a0808;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ff4444;
+    width: 100%;
+}
